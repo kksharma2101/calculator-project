@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" class="css" />
+    <title>self practice</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <form>
+        <!-- here is display print area -->
+        <div class="border">
+          <div class="display">
+            <div id="displayPrint">
+              <input
+                type="text"
+                class="displayNum"
+                placeholder="000000000000"
+              />
+            </div>
+
+            <div class="about">
+              <p>CT-512</p>
+              <p class="small-text">
+                CHECK & CORRECT
+                <span> ------------------------ </span>
+                CALCULATOR
+              </p>
+            </div>
+          </div>
+          <hr class="line" />
+
+          <div class="check-correct">
+            <input type="button" value="Clear" id="check" />
+
+            <input type="button" value="CORRECT" id="correct" />
+
+            <input type="text" id="blank-id" />
+          </div>
+        </div>
+
+        <!-- create a button section -->
+        <div>
+          <input id="input-style" type="button" value="7" />
+
+          <input id="input-style" type="button" value="8" />
+
+          <input id="input-style" type="button" value="9" />
+
+          <input id="input-style" type="button" value="/" />
+        </div>
+        <div>
+          <input id="input-style" type="button" value="4" />
+          <input id="input-style" type="button" value="5" />
+          <input id="input-style" type="button" value="6" />
+          <input id="input-style" type="button" value="*" />
+        </div>
+        <div>
+          <input id="input-style" type="button" value="1" />
+          <input id="input-style" type="button" value="2" />
+          <input id="input-style" type="button" value="3" />
+          <input id="input-style" type="button" value="+" />
+        </div>
+        <div>
+          <input id="input-style" type="button" value="0" />
+          <input id="input-style" type="button" value="00" />
+          <input id="input-style" type="button" value="." />
+          <input id="input-style" type="button" value="-" />
+        </div>
+        <div>
+          <input id="equal" type="button" value="=" />
+        </div>
+      </form>
+    </div>
+
+    <!-- creating a js script -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
